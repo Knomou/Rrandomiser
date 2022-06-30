@@ -1,18 +1,28 @@
 body {
     background-color: beige;
+    margin: 0;
+    background-image: url('background.png');
+    background-size: cover;
+    height: 480px;
+    padding-top: 40px; 
+    padding-left: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: royalblue;
+    font-weight: bold;
 }
- 
+
 h1 {
     font: size 40px;
     font-family: Arial, Helvetica, sans-serif;
     color:rosybrown;
 }
- 
-.container {
+
+/* .container {
     position:absolute;
     top: 8px;
     left: 16px;
-}
+} */
 
 button {
     border:none;
